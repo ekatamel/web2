@@ -1,0 +1,51 @@
+// VARIABLES
+
+$white: #ffffff;
+$light_grey: #ebeaea;
+$text_grey: #444444;
+$dark_grey: #232323;
+
+$lightblue: #97cee9;
+$turquoise: #63a5bf;
+$fontain-blue: #4b83a6;
+$steel-blue: #365673;
+$prussian-blue: #222f40;
+$color__main: #afe4ff;
+$color__active: grey;
+$background__active: #eee;
+$width__tabs-side: 250px;
+$breakpoint: 1342px;
+
+@mixin tab-active() {
+  background: $color__main;
+  color: $background__active;
+}
+
+@mixin gray_containers {
+  width: 100%;
+  background-color: $light_grey;
+  height: 8em;
+}
+
+@mixin button {
+  background-color: $turquoise;
+  text-decoration: none;
+  color: $white;
+  padding: 0.3em;
+  font-weight: bold;
+  box-shadow: 0px 2px 8px black;
+  text-align: center;
+}
+
+@mixin title_format {
+  // font-size: 3.8rem;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  margin: 0 0 1em 0;
+  // padding: 1em 0 1em 0
+}
+
+@mixin container {
+  height: fit-content;
+  padding: 2.5em 0;
+}

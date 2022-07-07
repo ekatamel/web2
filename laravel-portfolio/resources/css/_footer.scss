@@ -1,0 +1,42 @@
+.footer {
+  background-color: $turquoise;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  // justify-self: center;
+  // align-items: center;
+  // height: 50vh;
+  // padding-top: 15em;
+
+  // z-index: -1;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    column-gap: 1.5em;
+  }
+
+  &__title {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+  }
+
+  &__line {
+    background-color: $steel-blue;
+    flex: 1;
+    height: 5px;
+  }
+
+  &__copyright {
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+}
